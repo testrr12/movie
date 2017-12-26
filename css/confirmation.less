@@ -1,0 +1,114 @@
+@import "variables";
+@import "bootstrap/index";
+
+@import "bootstrap-theme";
+@import "fonts";
+
+@import "bootstrap/mixins/vendor-prefixes";
+@import "bootstrap/variables";
+
+
+body {
+  font-family: 'GothamPro-Light', Arial, sans-serif;
+  position: relative;
+
+  margin: 0;
+  min-width: 100% !important;
+  padding: 40px 0;
+  background: #F4F4F4
+}
+
+.content-wrapper {
+  max-width: 630px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.block-header {
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  -o-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+
+  background: url("../cdn-images/layout/confirmation-header.png") no-repeat 50% 50%;
+  height: 43px;
+  max-width: 600px;
+}
+.dark-logo {
+  width: 50px;
+  height: 50px;
+  background: url("../cdn-images/layout/udviser-logo-dark.svg") no-repeat 50% 50%;
+  background-size: 50px 50px;
+  margin: 0 auto;
+}
+.block-content {
+  border: 1px solid #ECECEC;
+  border-top: none;
+
+  background: #fff;
+  padding: 15px;
+
+  -webkit-border-radius: 0 0 3px 3px;
+  -moz-border-radius: 0 0 3px 3px;
+  -o-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
+  text-align: center;
+
+
+  h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 23px;
+  }
+  p {
+    font-size: 16px;
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 25px;
+    letter-spacing: -0.1px;
+    &.secondary-section {
+      &:before {
+        content: "";
+        display: block;
+        position: absolute;
+        height: 1px;
+        background: #545454;
+        opacity: 0.3;
+        left: -30px;
+        right: -30px;
+        margin-top: -28px;
+      }
+      margin-top:55px;
+    }
+  }
+
+}
+.share-buttons-section {
+  text-align: center;
+  margin-top: 30px;
+}
+.button-wrapper {
+  margin-top: 30px;
+  a {
+    text-decoration: none;
+    font-size:16px;
+    font-family: 'GothamPro-Medium';
+    font-weight: 600;
+    letter-spacing: .2px;
+
+    color: #fff;
+
+    background: #464646;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 16px;
+    min-width: 200px;
+  }
+
+
+}

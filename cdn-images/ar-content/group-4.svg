@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="145" height="145" viewBox="0 0 145 145">
+    <defs>
+        <circle id="b" cx="72.5" cy="72.5" r="62.5"/>
+        <filter id="a" width="115.2%" height="115.2%" x="-7.6%" y="-7.6%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" operator="dilate" radius="3.5" result="shadowSpreadOuter1"/>
+            <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feMorphology in="SourceAlpha" radius="3.5" result="shadowInner"/>
+            <feOffset in="shadowInner" result="shadowInner"/>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0.968627451 0 0 0 0 1 0 0 0 1 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <circle cx="72.5" cy="72.5" r="72.5" fill="#000" opacity=".8"/>
+        <circle cx="72.5" cy="72.5" r="62.5" stroke="#00F7FF" stroke-width="7" opacity=".2"/>
+        <g stroke-dasharray="300" transform="rotate(90 72.5 72.5)">
+            <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+            <use stroke="#00F7FF" stroke-width="7" xlink:href="#b"/>
+        </g>
+        <text fill="#FFF" font-family="Roboto-Bold, Roboto" font-size="40" font-weight="bold" transform="translate(32 41)">
+            <tspan x="6" y="59">76%</tspan>
+        </text>
+        <text fill="#00F7FF" font-family="Roboto-Medium, Roboto" font-size="15" font-weight="400" transform="translate(32 41)">
+            <tspan x="4.183" y="10.158">RATING</tspan>
+        </text>
+    </g>
+</svg>

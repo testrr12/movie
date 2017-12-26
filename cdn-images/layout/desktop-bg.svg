@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1439px" height="772px" viewBox="0 0 1439 772" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>desktop-bg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="32.8515625%" cy="-15.561888%" fx="32.8515625%" fy="-15.561888%" r="153.10527%" id="radialGradient-1">
+            <stop stop-color="#00F7FF" offset="0%"></stop>
+            <stop stop-color="#F15BE5" offset="42.4959128%"></stop>
+            <stop stop-color="#F91D1D" offset="100%"></stop>
+        </radialGradient>
+        <rect id="path-2" x="0" y="0" width="1440" height="772"></rect>
+        <radialGradient cx="51.6575738%" cy="50.6106146%" fx="51.6575738%" fy="50.6106146%" r="50.1636908%" id="radialGradient-4">
+            <stop stop-color="#14C4AF" offset="0%"></stop>
+            <stop stop-color="#45DCC9" offset="33.5837851%"></stop>
+            <stop stop-color="#76DBFF" stop-opacity="0.302507926" offset="75.8669483%"></stop>
+            <stop stop-color="#76DBFF" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Udviser-Home">
+            <g id="desktop-bg" transform="translate(-1.000000, 0.000000)">
+                <rect id="Rectangle" fill="url(#radialGradient-1)" x="0" y="0" width="1440" height="772"></rect>
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <g id="Rectangle-Copy"></g>
+                <ellipse id="Oval-2" fill="url(#radialGradient-4)" mask="url(#mask-3)" cx="1632" cy="-224.31117" rx="1299" ry="1227.29521"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="168px" height="193px" viewBox="0 0 168 193" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>udviser-logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,9.99845703 C0,4.47646169 4.47489426,0 9.99845703,0 L120.001543,0 C125.523538,0 130,4.47489426 130,9.99845703 L130,120.001543 C130,125.523538 125.525106,130 120.001543,130 L9.99845703,130 C4.47646169,130 0,125.525106 0,120.001543 L0,9.99845703 Z M46.7391304,43.2666667 L25,43.2666667 L25,70.9016969 C25,83.974264 28.4756207,93.7586755 35.4269663,100.255225 C42.3783119,106.751774 52.1460045,110 64.7303371,110 C70.9226277,110 76.4656434,109.21526 81.3595506,107.645758 C86.2534577,106.076255 90.4781345,103.702169 94.0337079,100.52343 C97.5892812,97.3446899 100.305858,93.2123902 102.183521,88.1264067 C104.061183,83.0404231 105,77.1002424 105,70.3056862 L105,43.2666667 L85,43.2666667 L85,67.1808518 C85,71.1059894 81.787309,74.2879421 77.8258769,74.2879421 L65.1914222,74.2879421 C65.2247412,81.0474006 65.2447935,86.7267225 65.234375,89.2 C59.4429058,89.2 54.9125503,87.4159463 51.6431726,83.8477853 C48.3737948,80.2796244 46.7391304,74.9969718 46.7391304,67.9996691 L46.7391304,43.2666667 Z M85,43.2666667 L84.9744169,31.138313 C84.9744169,27.1991108 81.7646002,24 77.8050908,24 L53.9084565,24 C49.9496733,24 46.7391304,27.1959316 46.7391304,31.138313 L46.7391304,43.2666667 L85,43.2666667 Z" id="path-1"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.369735216   0 0 0 0 0.210851172   0 0 0 0 0.52861926  0 0 0 0.279353487 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Udviser-Home" transform="translate(-303.000000, -113.000000)">
+            <g id="udviser-logo" transform="translate(301.000000, 126.000000)">
+                <text id="UDVISER-Copy" font-family="GothamPro-Medium, Gotham Pro" font-size="29" font-weight="400" letter-spacing="6.21428537" fill="#DEFCFF">
+                    <tspan x="0.154786348" y="179">UDVISER</tspan>
+                </text>
+                <g id="logo" transform="translate(23.000000, 0.000000)">
+                    <g id="Group-14">
+                        <g id="Combined-Shape" transform="translate(65.000000, 65.000000) scale(-1, 1) translate(-65.000000, -65.000000) ">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#DEFCFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

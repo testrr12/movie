@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>bag</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M32.5693058,9.67333333 L32.5693058,5.12222222 L27.9817192,0.5 L18.9477025,0.5 L14.4306942,5.05111111 L14.4306942,9.60222222 L2.80909091,9.60222222 L0.809090909,64.5 L46.1909091,64.5 L45.1909091,9.67333333 L32.5693058,9.67333333 Z M27.9817192,9.67333333 L18.9477025,9.67333333 L18.9477025,5.12222222 L28.0522975,5.12222222 L28.0522975,9.67333333 L27.9817192,9.67333333 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-2" y="-2" width="49.3818182" height="68">
+            <rect x="-1.19090909" y="-1.5" width="49.3818182" height="68" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+        <pattern id="pattern-3" width="9.60000014" height="9.60000014" x="-3.65229761" y="15.5222221" patternUnits="userSpaceOnUse">
+            <use xlink:href="#image-4" transform="scale(0.200000003,0.200000003)"></use>
+        </pattern>
+        <image id="image-4" width="48" height="48" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAV9JREFUaAXt2O0NgjAQBmBrt4DoDiawEHEQB1F3MK7BHKxR+2oKQfnseXCX0B/SEr3zucZIz+R57nZ+OOfuZVmeMcWaOEyWZVdjTBHicMW3aZpekMQnOyVJcqiq6hmSUq6Ig3iIyxnf+iRH7iSc8e1SleJCWGyvZsQboBlRA7QiWgCNiB+ANkQnQBOiF6AFMQjQgBgFSEdMAkhGTAZIRcwCSETMBkhDRAEkIaIBUhAkgAQEGbA2AgCDL0Edax2KrO8e3JCcCsDn10CgK/HQ2I0IZ+w9KucXBfo4mGJNHA79JfSBQhzO+FtfKFS567rEb2LrC3VV/vse507Uf2ScSQDiil8DOJOEHeFAtAAaET8AbYhOgCZEL0ALYhCgATEKkI6YBJCMmAyQipgFkIiYDZCGiAJIQkQDpCBIAAkIMmBtBAD/OMizPe+jQBh9j+JbX+hTn+a1r1K437wrfvYd/wV+UgblD/bGFgAAAABJRU5ErkJggg=="></image>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Apple-Watch-38mm" transform="translate(-6.000000, -6.000000)">
+            <g id="bag" transform="translate(26.089725, 14.999877)">
+                <use id="Shape" stroke="#585858" mask="url(#mask-2)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.900000036" xlink:href="#path-1"></use>
+                <polygon id="Path" fill="url(#pattern-3)" opacity="0.400000006" points="5.94770253 59.6733333 5.94770253 25.1222222 42.0522975 25.1222222 42.0522975 59.6733333"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

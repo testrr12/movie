@@ -1,0 +1,140 @@
+@import "../bootstrap/mixins";
+@import "../variables";
+
+.usecaseWrapper {
+  width: 100%;
+
+  #use-case-package {
+    position: relative;
+    /*overflow-x: hidden;*/
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 611px;
+    //height: 640px;
+
+    @media (max-width: @breakpoint-tablet-portrait) {
+      div, img {
+        display: none;
+      }
+
+      background: url("@{imageDomain}components/phone-ar/mob_demo.png") no-repeat 50% 50%;
+    }
+  }
+
+  .blurred-package {
+    max-width: 2560px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: url("@{imageDomain}components/phone-ar/products.jpg") no-repeat 50% 50%;
+    background: url("@{imageDomain}components/phone-ar/blure.png") no-repeat 50% 50%;
+    @media (max-width: @breakpoint-tablet-portrait) {
+      background: none;
+    }
+  }
+
+  #use-case-package-view {
+    position: absolute;
+    top: 0;
+    left: 50%;
+
+    margin-left: -1450px;
+    .transition(transform 100ms linear);
+  }
+
+  #use-case-phone-scanner {
+    width: 618px;
+    height: 611px;
+    position: absolute;
+    top: 0;
+    left: -230px;
+    z-index: 3;
+    background: url("@{imageDomain}components/phone-ar/demo_hand.png") no-repeat 0 0;
+    pointer-events: none;
+  }
+
+  #use-case-real-value {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    //margin-left: -1280px;
+
+    transform: translateX(-50%);
+    width: 2560px;
+    height: 611px;
+    z-index: 2;
+    clip: rect(50px, 885px, 556px, 576px);
+    cursor: ew-resize;
+
+    .transition(transform 100ms linear);
+  }
+
+  .hints {
+    background: rgba(0, 0, 0, .2);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+
+    z-index: 30;
+    position: absolute;
+    width: 223px;
+    height: 65px;
+    top: 265px;
+    left: 272px;
+    text-align: center;
+
+    .swipe-icon {
+      margin-top: 7px;
+      display: inline-block;
+      background: url("@{imageDomain}components/phone-ar/hand.png") no-repeat 0 0;
+      width: 39px;
+      height: 33px;
+
+    }
+    .swipe-icon-title {
+      display: block;
+      color: white;
+      font-size: 12px;
+      letter-spacing: 1px;
+    }
+
+    .left-icon,
+    .right-icon {
+      width: 35px;
+      height: 8px;
+      display: inline-block;
+      position: absolute;
+      top: 31px;
+    }
+
+    .left-icon {
+      background: url("@{imageDomain}components/phone-ar/left_arrow.png") no-repeat 0 0;
+      left: 10px;
+
+    }
+
+    .right-icon {
+      background: url("@{imageDomain}components/phone-ar/right_arrow.png") no-repeat 0 0;
+      right: 10px;
+    }
+  }
+
+  .seen {
+    animation: blink 1.4s steps(5, start) infinite;
+    transition: opacity .2s linear;
+  }
+
+  .blink {
+    animation: blink 300ms steps(5, start) infinite;
+  }
+
+  .hideHint {
+    animation-duration: 1.4s;
+    animation-fill-mode: both;
+    animation-name: blink;
+    animation-iteration-count: 3;
+  }
+}
+
+
+

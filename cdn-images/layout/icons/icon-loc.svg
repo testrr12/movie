@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>loc</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <pattern id="pattern-1" width="9.60000014" height="9.60000014" x="12.6413134" y="13.1619342" patternUnits="userSpaceOnUse">
+            <use xlink:href="#image-2" transform="scale(0.200000003,0.200000003)"></use>
+        </pattern>
+        <image id="image-2" width="48" height="48" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAV9JREFUaAXt2O0NgjAQBmBrt4DoDiawEHEQB1F3MK7BHKxR+2oKQfnseXCX0B/SEr3zucZIz+R57nZ+OOfuZVmeMcWaOEyWZVdjTBHicMW3aZpekMQnOyVJcqiq6hmSUq6Ig3iIyxnf+iRH7iSc8e1SleJCWGyvZsQboBlRA7QiWgCNiB+ANkQnQBOiF6AFMQjQgBgFSEdMAkhGTAZIRcwCSETMBkhDRAEkIaIBUhAkgAQEGbA2AgCDL0Edax2KrO8e3JCcCsDn10CgK/HQ2I0IZ+w9KucXBfo4mGJNHA79JfSBQhzO+FtfKFS567rEb2LrC3VV/vse507Uf2ScSQDiil8DOJOEHeFAtAAaET8AbYhOgCZEL0ALYhCgATEKkI6YBJCMmAyQipgFkIiYDZCGiAJIQkQDpCBIAAkIMmBtBAD/OMizPe+jQBh9j+JbX+hTn+a1r1K437wrfvYd/wV+UgblD/bGFgAAAABJRU5ErkJggg=="></image>
+        <path d="M1.66850681,20.0618137 C2.2205893,36.0782456 21.0985297,54.9485591 21.0985297,54.9485591 C21.0985297,54.9485591 37.5755391,35.7283096 38.5558744,20.0618137 C39.1911239,9.91004983 30.2983559,1.61812989 20.1121906,1.61812989 C9.92602533,1.61812989 1.31775266,9.8861059 1.66850681,20.0618137 L1.66850681,20.0618137 Z M11.6977911,18.3052724 C11.6977911,22.9524169 15.4650461,26.7196719 20.1121906,26.7196719 C24.7593352,26.7196719 28.5265902,22.9524169 28.5265902,18.3052724 C28.5265902,13.6581279 24.7593352,9.89087286 20.1121906,9.89087286 C15.4650461,9.89087286 11.6977911,13.6581279 11.6977911,18.3052724 L11.6977911,18.3052724 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-2" y="-2" width="40.9297997" height="57.3304292">
+            <rect x="-0.341848498" y="-0.381870108" width="40.9297997" height="57.3304292" fill="white"></rect>
+            <use xlink:href="#path-3" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Apple-Watch-38mm" transform="translate(-6.000000, -6.000000)">
+            <g id="loc" transform="translate(26.089725, 21.999877)">
+                <path d="M22.2413135,57.0550234 C22.2413135,57.0550234 65.3256564,44.1099336 66.3283668,34.3049913 C66.9781151,27.9514672 57.8823798,22.7619343 47.4637268,22.7619343 C37.0450739,22.7619343 28.2403271,27.9364818 28.5990869,34.3049913 C29.16377,44.3289425 22.2413135,57.0550234 22.2413135,57.0550234 Z M40.3464947,33.2056525 C40.3464947,35.6108265 43.5329881,37.5606053 47.4637268,37.5606053 C51.3944656,37.5606053 54.5809589,35.6108265 54.5809589,33.2056525 C54.5809589,30.8004785 51.3944656,28.8506998 47.4637268,28.8506998 C43.5329881,28.8506998 40.3464947,30.8004785 40.3464947,33.2056525 L40.3464947,33.2056525 Z" id="Combined-Shape-Copy-7" fill="url(#pattern-1)" opacity="0.400000006" transform="translate(44.301245, 39.908479) rotate(-358.000000) translate(-44.301245, -39.908479) "></path>
+                <g id="Combined-Shape-Copy-16" opacity="0.900000036" transform="translate(20.123051, 28.283345) rotate(-358.000000) translate(-20.123051, -28.283345) ">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <use stroke="#585858" mask="url(#mask-4)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" xlink:href="#path-3"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="290" height="120" viewBox="0 0 290 120">
+    <defs>
+        <linearGradient id="a" x1="100.095%" x2="0%" y1="56.979%" y2="56.979%">
+            <stop offset="0%" stop-color="#00F7FF"/>
+            <stop offset="100%" stop-color="#D8D8D8"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <rect width="290" height="120" fill="#000" opacity=".8" rx="4"/>
+        <rect width="283" height="113" x="3.5" y="3.5" stroke="#979797" opacity=".8" rx="4"/>
+        <text fill="#FFF" font-family="Roboto-Bold, Roboto" font-size="27" font-weight="bold">
+            <tspan x="24.469" y="92">$ 201 M</tspan>
+        </text>
+        <text fill="#00F7FF" font-family="Roboto-Bold, Roboto" font-size="27" font-weight="bold">
+            <tspan x="170.469" y="92">$ 732 M</tspan>
+        </text>
+        <path fill="#D8D8D8" d="M4 17h141v6H4z"/>
+        <path fill="url(#a)" d="M4 29h222v6H4z"/>
+        <text fill="#FFF" font-family="Roboto-Regular, Roboto" font-size="15">
+            <tspan x="24.335" y="59">Budget</tspan>
+        </text>
+        <text fill="#FFF" font-family="Roboto-Regular, Roboto" font-size="15">
+            <tspan x="170.152" y="59">Revenue</tspan>
+        </text>
+    </g>
+</svg>

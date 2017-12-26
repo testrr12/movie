@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="225px" height="51px" viewBox="0 0 225 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>facebook-btn</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Udviser-Home" transform="translate(-477.000000, -507.000000)" fill="#FFFFFF">
+            <g id="Group-4" transform="translate(477.000000, 507.000000)">
+                <path d="M23.8128164,51 L225,51 L225,0 L0,0 L0,51 L17.0693555,51 L17.0693555,38.5571211 L12,38.5571211 L12,31.8136602 L17.0693555,31.8136602 L17.0693555,26.7443047 C17.0693555,23.0136641 20.083125,20 23.8128164,20 L28.8829102,20 L28.8829102,26.7443047 L25.4869219,26.7443047 C24.5790469,26.7443047 23.8128164,27.5096914 23.8128164,28.4184102 L23.8128164,31.8136602 L28.8829102,31.8136602 L28.8829102,38.5571211 L23.8128164,38.5571211 L23.8128164,51 Z" id="facebook-btn"></path>
+            </g>
+        </g>
+    </g>
+</svg>

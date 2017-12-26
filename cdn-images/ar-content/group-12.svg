@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="259" height="120" viewBox="0 0 259 120">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#000" d="M0 0h259v120H0z" opacity=".8"/>
+        <path stroke="#979797" d="M3.5 3.5h252v113H3.5z" opacity=".8"/>
+        <text fill="#FFF" font-family="Roboto-Regular, Roboto" font-size="13">
+            <tspan x="15" y="78">Release date:</tspan>
+        </text>
+        <text fill="#FFF" font-family="Roboto-Bold, Roboto" font-size="15" font-weight="bold">
+            <tspan x="15.18" y="100">22 October 2018</tspan>
+        </text>
+        <text fill="#FFF" font-family="Roboto-Regular, Roboto" font-size="13">
+            <tspan x="15" y="27">Director:</tspan>
+        </text>
+        <text fill="#FFF" font-family="Roboto-Bold, Roboto" font-size="15" font-weight="bold">
+            <tspan x="15.408" y="49">Steve Lourie</tspan>
+        </text>
+        <g fill="#00F7FF" font-family="Roboto-Bold, Roboto" font-size="12" font-weight="bold">
+            <text transform="translate(175 32)">
+                <tspan x="3.357" y="11">Crime</tspan>
+            </text>
+            <text transform="translate(175 32)">
+                <tspan x=".038" y="32">Thriller</tspan>
+            </text>
+            <text transform="translate(175 32)">
+                <tspan x="2.372" y="53">Drama</tspan>
+            </text>
+        </g>
+        <path stroke="#00F7FF" stroke-opacity=".265" stroke-width="2" d="M194.6 8l44.6 25.75v51.5L194.6 111 150 85.25v-51.5z"/>
+    </g>
+</svg>

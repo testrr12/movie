@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Personal Augmented Reality Adviser | Udviser by ROAR</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+    <meta name="description" content="Just scan the items with free Udviser app to explore useful Augmented Reality
+    content. Reviews, places and discounts - everything in one app.">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" type="image/png" href="/adviser/favicon.ico">
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+
+    <script src="lib/jquery.ba-throttle-debounce.min.js" crossorigin="anonymous"></script>
+    <script src="lib/component-explorear.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="cdn-images/fav/favicon.ico" rel="icon" type="image/ico">
+    <link href="cdn-images/fav/apple-icon.png" rel="apple-touch-icon">
+    <link href="cdn-images/fav/favicon-32x32.png" rel="icon" type="image/png" sizes="32x32">
+    <link href="cdn-images/fav/favicon-96x96.png" rel="icon" sizes="96x96">
+
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="Your Personal Augmented Reality Adviser | Udviser by ROAR"/>
+    <meta property="og:description"
+          content="Request early access and be the first to test drive it. New amazing Augmented Reality mobile app for shoppers and movie lovers"/>
+    <meta property="og:image" content="https://s3.amazonaws.com/roar-storage/share/cookie.jpg"/>
+
+
+    <script>
+        // (function (i, s, o, g, r, a, m) {
+        //     i['GoogleAnalyticsObject'] = r;
+        //     i[r] = i[r] || function () {
+        //         (i[r].q = i[r].q || []).push(arguments)
+        //     }, i[r].l = 1 * new Date();
+        //     a = s.createElement(o),
+        //         m = s.getElementsByTagName(o)[0];
+        //     a.async = 1;
+        //     a.src = g;
+        //     m.parentNode.insertBefore(a, m)
+        // })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        //
+        // ga('create', 'UA-67194735-8', 'auto');
+        // ga('send', 'pageview');
+        //
+        //
+        // (function (w, d, s, l, i) {
+        //     w[l] = w[l] || [];
+        //     w[l].push({
+        //         'gtm.start': new Date().getTime(), event: 'gtm.js'
+        //     });
+        //     var f = d.getElementsByTagName(s)[0],
+        //         j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        //     j.async = true;
+        //     j.src =
+        //         'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        //     f.parentNode.insertBefore(j, f);
+        // })(window, document, 'script', 'dataLayer', 'GTM-P6SD2WH');
+    </script>
+
+</head>
+<body>
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P6SD2WH" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe>
+</noscript>
+<div id="fb-root"></div>
+<div class="download-banner hidden" id="download-banner">
+    <div class="title-block" id="cta-download-link">
+        <div class="app-name"><span class="small-logo"></span><span class="short-name">ROAR App</span><span
+                class="full-name">ROAR Augmented Reality App <span
+                class="cta-title-text">Download our current version</span></span></div>
+        <a class="cta-block"><span class="icon download"></span> Download</a>
+    </div>
+    <div class="big-banner" id="huge-wrapper-banner">
+        <div class="main-block">
+            <button class="close-btn" id="close-banner-link"></button>
+            <span class="main-logo"></span>
+            <h4>ROAR Augmented Reality App</h4>
+            <p>Download the mobile app to discover awesome Augmented Reality content from our gallery that was created
+                by users around the world. Soon, we will introduce you Udviser, the new revolution app and Personal
+                Augmented Reality Adviser based on ROAR</p>
+            <div class="app-links">
+                <a href="https://play.google.com/store/apps/details?id=com.roar.scanner" class="google-play" id="gp"
+                   target="_blank"></a>
+                <a href="https://itunes.apple.com/us/app/roar-augmented-reality-app/id1045561660?mt=8" class="appstore"
+                   id="as" target="_blank"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="header-section">
+    <div class="header-container">
+        <div class="phone" id="header-phone">
+            <div class="group-1"></div>
+            <div class="group-2"></div>
+            <div class="group-3"></div>
+            <div class="group-4"></div>
+            <div class="group-5">
+                <div></div>
+            </div>
+            <div class="group-6"></div>
+        </div>
+        <div class="read-sources">
+            <a href="https://twitter.com/udviser/" class="read-sources__a" target="_blank">
+                <i class="icon-twitter"></i>
+            </a>
+            <a
+                    href="https://www.facebook.com/udviser/" class="read-sources__a" target="_blank"><i
+                    class="icon-facebook"></i></a>
+            <a href="https://blog.theroar.io/" class="read-sources__a text" target="_blank">Blog</a>
+
+            <div class="share-buttons-section hidden-xs">
+                <a href="https://twitter.com/share" class="twitter-share-button"
+                   data-url=" "
+                   data-text="Join @udviser as a beta tester https://goo.gl/MpLcRU. A new amazing app by ROAR for shoppers and movie lovers based on"
+                   data-hashtags="augmentedreality">Tweet</a>
+                <a href="https://twitter.com/udviser" class="twitter-follow-button" data-show-count="false">Follow
+                    @udviser</a>
+                <div class="fb-like" data-href="https://www.facebook.com/udviser/" data-layout="button_count"
+                     data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
+                <div
+                        class="fb-share-button" data-href="http://theroar.io/adviser" data-layout="button"
+                        data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank"
+                                                                       href="https://www.facebook.com/sharer/sharer.php?u=http%3A//theroar.io/adviser">Share</a>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="flex-row">
+                <div class="flex-col-md-6">
+                    <div class="h-section">
+                        <div class="udviser-logo">
+                            <div class="soon">soon</div>
+                        </div>
+                        <h3 class="main-title">Explore Useful AR Content About Upcoming Movies</h3>
+
+                        <div class="subscript-form light clearfix">
+                            <p class="subscript-form__headline">Pre-register today and be the first to try it</p>
+
+                            <div class="subscript-form__form-group">
+                                <form action="" method="post" data-pos="" class="input-group">
+                                    <input type="text" class="form-control" name="email"
+                                           placeholder="Get newsletter">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-secondary" type="submit">Submit</button>
+                                    </span>
+                                </form>
+                                <div class="or-login">
+                                    <span class="subscript-form__label hidden-sm hidden-md hidden-lg">…or simply</span>
+                                    <span class="subscript-form__label visible-sm-inline-block visible-md-inline-block visible-lg-inline-block">or</span>
+                                    <button class="connect-with-fb" data-pos="">CONNECT WITH FB</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="comming-soon">
+                            <div class="headtitle">COMING SOON</div>
+                            <span class="apple"></span>
+                            <span class="google"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-col-md-6 vertical-bottom">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down"></div>
+    </div>
+</section>
+
+<section class="share-buttons-section text-center hidden-sm hidden-md hidden-lg">
+    <a href="https://twitter.com/share" class="twitter-share-button"
+       data-url=" "
+       data-text="Join @udviser as a beta tester https://goo.gl/MpLcRU. A new amazing app by ROAR for shoppers and movie lovers based on"
+       data-hashtags="augmentedreality">Tweet</a>
+    <a href="https://twitter.com/udviser" class="twitter-follow-button" data-show-count="false">Follow @udviser</a>
+
+    <div class="fb-like" data-href="https://www.facebook.com/udviser/" data-layout="button_count" data-action="like"
+         data-size="small" data-show-faces="false" data-share="false"></div>
+    <div class="fb-share-button" data-href="http://theroar.io/adviser" data-layout="button" data-size="small"
+         data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank"
+                                      href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ftheroar.io%2Fadviser">Share</a>
+    </div>
+
+</section>
+
+<section class="container">
+
+    <h3 class="usecase-profits-header">Scan movie posters to explore</h3>
+
+    <div class="usecase-profits">
+        <div class="usecase-profit">
+            <div class="fwrap">
+                <div class="img">
+                    <div class="hex-icon"><span class="icon trailer"></span></div>
+                </div>
+                <h4 class="usecase-profits__h4">Trailers</h4>
+
+                <p class="usecase-profits__p">Watch movie trailers directly on the posters</p>
+            </div>
+        </div>
+        <div class="usecase-profit">
+            <div class="fwrap">
+                <div class="hex-icon"><span class="icon review"></span></div>
+                <h4 class="usecase-profits__h4">Reviews</h4>
+
+                <p class="usecase-profits__p">Check reviews from real people and write your own</p>
+            </div>
+        </div>
+        <div class="usecase-profit">
+            <div class="fwrap">
+                <div class="hex-icon"><span class="icon movie"></span></div>
+                <h4 class="usecase-profits__h4">Movie details</h4>
+                <p class="usecase-profits__p">Learn more about director, actors and release date</p>
+            </div>
+        </div>
+        <div class="usecase-profit">
+            <div class="fwrap">
+                <div class="hex-icon"><span class="icon place"></span></div>
+                <h4 class="usecase-profits__h4">Places</h4>
+                <p class="usecase-profits__p">Discover nearby theaters</p>
+            </div>
+        </div>
+        <div class="usecase-profit">
+            <div class="fwrap">
+                <div class="hex-icon"><span class="icon order"></span></div>
+                <h4 class="usecase-profits__h4">Order</h4>
+                <p class="usecase-profits__p">Book tickets in a few clicks</p>
+            </div>
+        </div>
+        <div class="usecase-profit">
+            <div class="fwrap">
+                <div class="hex-icon"><span class="icon coupons"></span></div>
+                <h4 class="usecase-profits__h4">Coupons</h4>
+                <p class="usecase-profits__p">Get coupon codes and instant discounts</p>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<div class="bordered tiled-bg clearfix">
+    <section class="container benefits">
+        <div class="benefit">
+            <p class="benefit__p"><b>Forget</b> about browsing plenty of websites for hours</p>
+        </div>
+        <div class="benefit">
+            <p class="benefit__p"><b>We already</b> found and put together all the best results in one place</p>
+        </div>
+        <div class="benefit">
+            <p class="benefit__p"><b>Just scan</b> the item using your mobile phone camera to get useful information</p>
+        </div>
+        <div class="benefit">
+            <p class="benefit__p"><b>It’s handy</b> it’s mobile and it's in your hands</p>
+        </div>
+    </section>
+</div>
+
+<section class="hidden-xs hidden-sm hidden-md">
+    <div class="usecaseWrapper">
+        <div class="blurred-package">
+            <div id="use-case-package">
+                <!--<img src="cdn-images/components/phone-ar/blure.png" id="use-case-package-view">-->
+                <img id="use-case-package-view">
+                <img src="cdn-images/components/phone-ar/blure-copy.png" id="use-case-real-value">
+
+                <div id="use-case-phone-scanner">
+                    <div class="hints">
+                        <span class="swipe-icon"></span>
+                        <span class="swipe-icon-title">Swipe it</span>
+                        <span class="left-icon"></span>
+                        <span class="right-icon"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="bordered">
+    <section class="container widgets">
+        <div class="row">
+            <div class="col-md-4">
+                <h2 class="widgets__title">Latest News</h2>
+
+                <div class="widget__block">
+                    <a class="twitter-timeline"
+                       data-chrome="noheader nofooter noscrollbar transparent"
+                       data-height="620"
+                       data-dnt="true"
+                       data-theme="light"
+                       data-link-color="#464646"
+                       data-border-color="#d5e2e2"
+                       data-show-replies="false"
+                       data-aria-polite="assertive"
+                       href="https://twitter.com/udviser">Tweets by @udviser</a></div>
+            </div>
+            <div class="col-md-8 hidden-xs">
+                <h2 class="widgets__title">People Talk</h2>
+
+                <div class="widget__block user-report">
+                    <iframe src="https://feedback.userreport.com/ffe03865-9d93-4c84-9142-afb1bf38f60b/"
+                            frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<section class="container-fluid bordered subscript-form-section">
+    <div class="subscript-form clearfix">
+        <p class="subscript-form__headline">Last chance to sign up, be the first to test it!</p>
+
+        <div class="subscript-form__form-group bottom-section">
+            <form action="" method="post" data-pos="-bottom" class="input-group">
+                <input type="text" class="form-control" name="email" placeholder="Get newsletter">
+                <span class="input-group-btn">
+                    <button class="btn btn-secondary" type="submit">Submit</button>
+                </span>
+            </form>
+            <div class="or-login">
+                <!--<span class="subscript-form__label hidden-sm hidden-md hidden-lg">…or simply</span>-->
+                <span class="subscript-form__label visible-sm-inline-block visible-md-inline-block visible-lg-inline-block">or</span>
+                <button class="connect-with-fb" data-pos="-bottom">CONNECT WITH FB</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container-fluid bordered partners">
+    <div class="powered-by text-center">
+        <h3>Powered by <a href="http://theroar.io/" target="_blank"><img src="cdn-images/layout/roar-logo.png"
+                                                                         alt=""></a></h3>
+    </div>
+    <div class="partner shoptalk"></div>
+    <div class="partner propeller"></div>
+    <div class="partner chief-marketing"></div>
+    <div class="partner tech-crunch"></div>
+    <div class="partner dell"></div>
+</section>
+
+
+<section class="container-fluid bordered footer">
+
+    <section class="footer-share-buttons-section text-center">
+        <a href="https://twitter.com/share" class="twitter-share-button"
+           data-url=" "
+           data-text="Join @udviser as a beta tester https://goo.gl/MpLcRU. A new amazing app by ROAR for shoppers and movie lovers based on"
+           data-hashtags="augmentedreality">Tweet</a>
+        <a href="https://twitter.com/udviser" class="twitter-follow-button" data-show-count="false">Follow @udviser</a>
+
+        <div class="fb-like" data-href="https://www.facebook.com/udviser/" data-layout="button_count" data-action="like"
+             data-size="small" data-show-faces="false" data-share="false"></div>
+        <div class="fb-share-button"
+             data-href="http://theroar.io/adviser?utm_source=facebook&amp;utm_medium=facebook_share_from_landing_udviser"
+             data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore"
+                                                                                 target="_blank"
+                                                                                 href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ftheroar.io%2Fadviser%3Futm_source%3Dfacebook%26utm_medium%3Dfacebook_share_from_landing_udviser&amp;src=sdkpreparse">Share</a>
+        </div>
+
+    </section>
+
+    <ul class="footer-menu">
+        <li><a href="http://www.theroar.io/privacy" target="_blank">Privacy &amp; Cookies</a></li>
+        <li><a href="http://www.theroar.io/terms" target="_blank">Terms & Conditions</a></li>
+        <li><a href="http://www.theroar.io/contact-us" target="_blank">Contact us</a></li>
+        <!--<li><a href="https://angel.co/theroar" target="_blank">About us</a></li>-->
+    </ul>
+    <div class="credits">
+        Made with &hearts; in Jersey City<br/>
+        2017
+    </div>
+</section>
+
+<div class="modal" id="thank-you-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true" class="sr-only">&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <div class="dark-logo"></div>
+                <h3>Thanks for registration!</h3>
+                <p>As soon as we get started, we will immediately notify you and invite to join our beta testing
+                    community</p>
+                <p class="secondary-section">Meanwhile, can you please support us through social media &#128591;</p>
+
+                <div class="share-buttons-section">
+                    <a href="https://twitter.com/share" class="twitter-share-button"
+                       data-url=" "
+                       data-text="Join @udviser as a beta tester https://goo.gl/MpLcRU. A new amazing app by ROAR for shoppers and movie lovers based on"
+                       data-hashtags="augmentedreality">Tweet</a>
+                    <a href="https://twitter.com/udviser" class="twitter-follow-button" data-show-count="false">Follow
+                        @udviser</a>
+                    <div class="fb-like" data-href="https://www.facebook.com/udviser/" data-layout="button_count"
+                         data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
+                    <div class="fb-share-button" data-href="http://theroar.io/adviser" data-layout="button"
+                         data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank"
+                                                                        href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ftheroar.io%2Fadviser">Share</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="email-exists-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true" class="sr-only">&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <div class="dark-logo"></div>
+                <h3>Ooops!</h3>
+
+                <p>Seems this email address already exists. Please try another one &#128521;</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+
+    //Twitter
+    !function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+        if (!d.getElementById(id)) {
+            js = d.createElement(s);
+            js.id = id;
+            js.src = p + '://platform.twitter.com/widgets.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }
+    }(document, 'script', 'twitter-wjs');
+
+</script>
+<script src="lib/lib.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>rate</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <pattern id="pattern-1" width="9.60000014" height="9.60000014" x="41.5879388" y="5.58793877" patternUnits="userSpaceOnUse">
+            <use xlink:href="#image-2" transform="scale(0.200000003,0.200000003)"></use>
+        </pattern>
+        <image id="image-2" width="48" height="48" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAV9JREFUaAXt2O0NgjAQBmBrt4DoDiawEHEQB1F3MK7BHKxR+2oKQfnseXCX0B/SEr3zucZIz+R57nZ+OOfuZVmeMcWaOEyWZVdjTBHicMW3aZpekMQnOyVJcqiq6hmSUq6Ig3iIyxnf+iRH7iSc8e1SleJCWGyvZsQboBlRA7QiWgCNiB+ANkQnQBOiF6AFMQjQgBgFSEdMAkhGTAZIRcwCSETMBkhDRAEkIaIBUhAkgAQEGbA2AgCDL0Edax2KrO8e3JCcCsDn10CgK/HQ2I0IZ+w9KucXBfo4mGJNHA79JfSBQhzO+FtfKFS567rEb2LrC3VV/vse507Uf2ScSQDiil8DOJOEHeFAtAAaET8AbYhOgCZEL0ALYhCgATEKkI6YBJCMmAyQipgFkIiYDZCGiAJIQkQDpCBIAAkIMmBtBAD/OMizPe+jQBh9j+JbX+hTn+a1r1K437wrfvYd/wV+UgblD/bGFgAAAABJRU5ErkJggg=="></image>
+        <pattern id="pattern-3" width="9.60000014" height="9.60000014" x="6.57886374" y="-9.42113626" patternUnits="userSpaceOnUse">
+            <use xlink:href="#image-4" transform="scale(0.200000003,0.200000003)"></use>
+        </pattern>
+        <image id="image-4" width="48" height="48" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAV9JREFUaAXt2O0NgjAQBmBrt4DoDiawEHEQB1F3MK7BHKxR+2oKQfnseXCX0B/SEr3zucZIz+R57nZ+OOfuZVmeMcWaOEyWZVdjTBHicMW3aZpekMQnOyVJcqiq6hmSUq6Ig3iIyxnf+iRH7iSc8e1SleJCWGyvZsQboBlRA7QiWgCNiB+ANkQnQBOiF6AFMQjQgBgFSEdMAkhGTAZIRcwCSETMBkhDRAEkIaIBUhAkgAQEGbA2AgCDL0Edax2KrO8e3JCcCsDn10CgK/HQ2I0IZ+w9KucXBfo4mGJNHA79JfSBQhzO+FtfKFS567rEb2LrC3VV/vse507Uf2ScSQDiil8DOJOEHeFAtAAaET8AbYhOgCZEL0ALYhCgATEKkI6YBJCMmAyQipgFkIiYDZCGiAJIQkQDpCBIAAkIMmBtBAD/OMizPe+jQBh9j+JbX+hTn+a1r1K437wrfvYd/wV+UgblD/bGFgAAAABJRU5ErkJggg=="></image>
+        <pattern id="pattern-5" width="9.60000014" height="9.60000014" x="31.2402227" y="35.2402227" patternUnits="userSpaceOnUse">
+            <use xlink:href="#image-6" transform="scale(0.200000003,0.200000003)"></use>
+        </pattern>
+        <image id="image-6" width="48" height="48" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAV9JREFUaAXt2O0NgjAQBmBrt4DoDiawEHEQB1F3MK7BHKxR+2oKQfnseXCX0B/SEr3zucZIz+R57nZ+OOfuZVmeMcWaOEyWZVdjTBHicMW3aZpekMQnOyVJcqiq6hmSUq6Ig3iIyxnf+iRH7iSc8e1SleJCWGyvZsQboBlRA7QiWgCNiB+ANkQnQBOiF6AFMQjQgBgFSEdMAkhGTAZIRcwCSETMBkhDRAEkIaIBUhAkgAQEGbA2AgCDL0Edax2KrO8e3JCcCsDn10CgK/HQ2I0IZ+w9KucXBfo4mGJNHA79JfSBQhzO+FtfKFS567rEb2LrC3VV/vse507Uf2ScSQDiil8DOJOEHeFAtAAaET8AbYhOgCZEL0ALYhCgATEKkI6YBJCMmAyQipgFkIiYDZCGiAJIQkQDpCBIAAkIMmBtBAD/OMizPe+jQBh9j+JbX+hTn+a1r1K437wrfvYd/wV+UgblD/bGFgAAAABJRU5ErkJggg=="></image>
+        <pattern id="pattern-7" width="9.60000014" height="9.60000014" x="-8.94920603" y="26.050794" patternUnits="userSpaceOnUse">
+            <use xlink:href="#image-8" transform="scale(0.200000003,0.200000003)"></use>
+        </pattern>
+        <image id="image-8" width="48" height="48" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAV9JREFUaAXt2O0NgjAQBmBrt4DoDiawEHEQB1F3MK7BHKxR+2oKQfnseXCX0B/SEr3zucZIz+R57nZ+OOfuZVmeMcWaOEyWZVdjTBHicMW3aZpekMQnOyVJcqiq6hmSUq6Ig3iIyxnf+iRH7iSc8e1SleJCWGyvZsQboBlRA7QiWgCNiB+ANkQnQBOiF6AFMQjQgBgFSEdMAkhGTAZIRcwCSETMBkhDRAEkIaIBUhAkgAQEGbA2AgCDL0Edax2KrO8e3JCcCsDn10CgK/HQ2I0IZ+w9KucXBfo4mGJNHA79JfSBQhzO+FtfKFS567rEb2LrC3VV/vse507Uf2ScSQDiil8DOJOEHeFAtAAaET8AbYhOgCZEL0ALYhCgATEKkI6YBJCMmAyQipgFkIiYDZCGiAJIQkQDpCBIAAkIMmBtBAD/OMizPe+jQBh9j+JbX+hTn+a1r1K437wrfvYd/wV+UgblD/bGFgAAAABJRU5ErkJggg=="></image>
+        <polygon id="path-9" points="44.6296025 50.2112914 31.879807 57.2592051 34.3148013 42.3314844 24 31.759614 38.2547048 29.5816889 44.6296025 16 51.0045003 29.5816889 65.2592051 31.759614 54.9444038 42.3314844 57.3793981 57.2592051"></polygon>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-2" y="-2" width="45.2592051" height="45.2592051">
+            <rect x="22" y="14" width="45.2592051" height="45.2592051" fill="white"></rect>
+            <use xlink:href="#path-9" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Apple-Watch-38mm" transform="translate(-6.000000, -6.000000)">
+            <g id="rate" transform="translate(5.089725, 11.999877)">
+                <polygon id="545-copy" fill="url(#pattern-1)" opacity="0.400000006" transform="translate(64.629603, 28.629603) rotate(-359.000000) translate(-64.629603, -28.629603) " points="64.6296025 37.4790456 56.3221976 42.0712662 57.9087707 32.344787 51.1879389 25.4564562 60.4759 24.037382 64.6296025 15.1879389 68.783305 24.037382 78.0712662 25.4564562 71.3504343 32.344787 72.9370075 42.0712662"></polygon>
+                <polygon id="545-copy-3" fill="url(#pattern-3)" opacity="0.400000006" transform="translate(26.517756, 10.517756) rotate(-359.000000) translate(-26.517756, -10.517756) " points="26.5177557 17.3244604 20.1279691 20.8566475 21.3483098 13.3753551 16.1788639 8.07707441 23.3228624 6.98556856 26.5177557 0.178863879 29.712649 6.98556856 36.8566475 8.07707441 31.6872016 13.3753551 32.9075422 20.8566475"></polygon>
+                <polygon id="545-copy-4" fill="url(#pattern-5)" opacity="0.400000006" transform="translate(56.517756, 60.517756) rotate(-359.000000) translate(-56.517756, -60.517756) " points="56.5177557 70.8392039 46.8285075 76.1952885 48.6789893 64.8509192 40.8402229 56.8167922 51.6731316 55.161671 56.5177557 44.8402229 61.3623798 55.161671 72.1952885 56.8167922 64.3565221 64.8509192 66.2070038 76.1952885"></polygon>
+                <polygon id="545-copy-2" fill="url(#pattern-7)" opacity="0.400000006" transform="translate(14.629603, 49.629603) rotate(-359.000000) translate(-14.629603, -49.629603) " points="14.6296025 58.8326799 5.99022381 63.608411 7.64019832 53.4932502 0.650794114 46.3296535 10.3099132 44.8538714 14.6296025 35.6507941 18.9492919 44.8538714 28.608411 46.3296535 21.6190067 53.4932502 23.2689813 63.608411"></polygon>
+                <g id="545" opacity="0.900000036" transform="translate(44.629603, 36.629603) rotate(-359.000000) translate(-44.629603, -36.629603) ">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-9"></use>
+                    <use stroke="#585858" mask="url(#mask-10)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" xlink:href="#path-9"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
